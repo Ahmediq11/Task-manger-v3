@@ -22,7 +22,7 @@ document
 
       if (response.ok) {
         // Update the redirect path
-        window.location.href = "/public/login.html";
+        window.location.href = "/login.html";
       } else {
         alert("Registration failed");
       }
